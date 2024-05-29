@@ -1,0 +1,3 @@
+plyer
+python-daemon
+win10toast
