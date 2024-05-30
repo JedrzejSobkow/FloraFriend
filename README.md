@@ -31,5 +31,5 @@ FloraFriend is a garden management application that allows users to create, mana
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/FloraFriend.git
+   git clone https://github.com/JedrzejSobkow/FloraFriend.git
    cd FloraFriend
