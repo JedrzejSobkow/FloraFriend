@@ -10,14 +10,19 @@ class GardenLoadController(BaseController):
     def take_control(self):
         self.view.Show()
 
+        self.view.add_buttons_for_gardens([garden.name for garden in self.mainController.all_gardens])
+        self.view.update_view()
+
 
     def on_load(self, garden_name, event):
         self.view.Hide()
         print(f"GARDEN: {garden_name} LOADED")
-        self.mainController.set_loaded_garden_name(garden_name)
+        self.view.remove_gardens_from_view()
+        self.mainController.load_garden(garden_name)
         self.mainController.change_controller("garden")
 
 
     def on_back(self, event):
         self.view.Hide()
+        self.view.remove_gardens_from_view()
         self.mainController.change_controller("menu")

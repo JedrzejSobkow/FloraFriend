@@ -12,14 +12,14 @@ class MenuView(wx.Panel):
         label.SetFont(font)
         label.SetForegroundColour(wx.Colour(255, 0, 0))
 
-        button_create_garden = wx.Button(self, label="garden creation", pos=(20, 60))
-        button_create_garden.Bind(wx.EVT_BUTTON, on_create_garden)
+        buttonCreateGarden = wx.Button(self, label="garden creation", pos=(20, 60))
+        buttonCreateGarden.Bind(wx.EVT_BUTTON, on_create_garden)
 
-        button_load_garden = wx.Button(self, label="load garden", pos=(20, 100))
-        button_load_garden.Bind(wx.EVT_BUTTON, on_load_garden)
+        buttonLoadGarden = wx.Button(self, label="load garden", pos=(20, 100))
+        buttonLoadGarden.Bind(wx.EVT_BUTTON, on_load_garden)
 
-        button_close = wx.Button(self, label="close app", pos=(20, 140))
-        button_close.Bind(wx.EVT_BUTTON, on_close)
+        buttonClose = wx.Button(self, label="close app", pos=(20, 140))
+        buttonClose.Bind(wx.EVT_BUTTON, on_close)
 
         self.SetSize((1024, 768))
 

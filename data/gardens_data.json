@@ -1,0 +1,29 @@
+[
+    {
+        "name": "mojogrodek123",
+        "size": [
+            12,
+            21
+        ],
+        "plants": [],
+        "decorations": []
+    },
+    {
+        "name": "ogrod2",
+        "size": [
+            22,
+            22
+        ],
+        "plants": [],
+        "decorations": []
+    },
+    {
+        "name": "new garden test",
+        "size": [
+            21,
+            37
+        ],
+        "plants": [],
+        "decorations": []
+    }
+]

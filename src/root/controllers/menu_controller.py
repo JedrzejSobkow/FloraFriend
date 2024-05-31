@@ -15,7 +15,7 @@ class MenuController(BaseController):
 
     def on_create_garden(self, event):
         self.view.Hide()
-        self.mainController.change_controller("garden creation")
+        self.mainController.change_controller("garden create intro")
 
     def on_load_garden(self, event):
         self.view.Hide()

@@ -12,17 +12,17 @@ class GardenCreateView(wx.Panel):
         label.SetFont(font)
         label.SetForegroundColour(wx.Colour(255, 0, 0))
 
-        button_save = wx.Button(self, label="save garden", pos=(20, 60))
-        button_save.Bind(wx.EVT_BUTTON, on_save)
+        buttonSave = wx.Button(self, label="save garden", pos=(20, 60))
+        buttonSave.Bind(wx.EVT_BUTTON, on_save)
 
-        button_discard = wx.Button(self, label="discard garden", pos=(20, 100))
-        button_discard.Bind(wx.EVT_BUTTON, on_discard)
+        buttonDiscard = wx.Button(self, label="discard garden", pos=(20, 100))
+        buttonDiscard.Bind(wx.EVT_BUTTON, on_discard)
 
-        button_clear = wx.Button(self, label="clear garden", pos=(20, 140))
-        button_clear.Bind(wx.EVT_BUTTON, on_clear)
+        buttonClear = wx.Button(self, label="clear garden", pos=(20, 140))
+        buttonClear.Bind(wx.EVT_BUTTON, on_clear)
 
-        button_back = wx.Button(self, label="back to menu", pos=(20, 180))
-        button_back.Bind(wx.EVT_BUTTON, on_back)
+        buttonBack = wx.Button(self, label="back to menu", pos=(20, 180))
+        buttonBack.Bind(wx.EVT_BUTTON, on_back)
 
         self.SetSize((1024, 768))
 
