@@ -25,5 +25,14 @@
         ],
         "plants": [],
         "decorations": []
+    },
+    {
+        "name": "mojogrodek",
+        "size": [
+            23,
+            22
+        ],
+        "plants": [],
+        "decorations": []
     }
 ]
