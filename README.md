@@ -14,7 +14,6 @@ FloraFriend is a garden management application that allows users to create, mana
 - **Garden Management**:
   - Remove Plants: Users can remove plants from the garden.
   - Watering Plants: The application monitors the watering schedule of the plants and sends notifications when it's time to water them.
-  - Marking Weather: Users can mark if it rained on a given day.
   - Additional plant list view: Available list of plants with information on the next required watering.
 - **Notifications**: FloraFriend will send notifications to the user about the need to water the plants when the appropriate time comes.
 
