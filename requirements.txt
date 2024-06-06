@@ -1,4 +1,5 @@
 plyer
 python-daemon
 win10toast
-wxpython
+wxpython~=4.2.1
+numpy~=1.24.4
