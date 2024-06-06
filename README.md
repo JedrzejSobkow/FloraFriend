@@ -9,7 +9,7 @@ FloraFriend is a garden management application that allows users to create, mana
 - **Load Garden**: Allow loading of existing gardens.
 - **Decorations**: Ability to add decorations that can be freely placed and moved around the garden.
 - **Plants**:
-  - Each plant has properties such as type, species, watering frequency, and additional fields requiring information on care frequency (e.g., pruning every 3 months).
+  - Each plant has properties such as id, name and additional field requiring information on water frequency.
   - Ability to group plants to treat them as a unit, for example, in the case of larger plants.
 - **Garden Management**:
   - Remove Plants: Users can remove plants from the garden.
