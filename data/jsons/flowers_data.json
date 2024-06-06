@@ -21,7 +21,7 @@
             255
         ],
         "wateringFrequency": 1,
-        "nextWatering": "2024-06-05 16:06:59.291480"
+        "nextWatering": "2024-06-04 17:24:37.734826"
     },
     {
         "id": 3,
@@ -58,5 +58,53 @@
         ],
         "wateringFrequency": 1,
         "nextWatering": "2024-06-07 16:29:55.689452"
+    },
+    {
+        "id": 6,
+        "name": "flowerek1",
+        "color": [
+            128,
+            255,
+            255,
+            255
+        ],
+        "wateringFrequency": 3,
+        "nextWatering": "2024-06-09 17:25:49.528613"
+    },
+    {
+        "id": 7,
+        "name": "flower2",
+        "color": [
+            255,
+            255,
+            0,
+            255
+        ],
+        "wateringFrequency": 3,
+        "nextWatering": "2024-06-09 17:26:29.457646"
+    },
+    {
+        "id": 8,
+        "name": "rabarbar",
+        "color": [
+            255,
+            255,
+            128,
+            255
+        ],
+        "wateringFrequency": 9,
+        "nextWatering": "2024-06-05 18:00:15.781746"
+    },
+    {
+        "id": 9,
+        "name": "sgfsdj",
+        "color": [
+            0,
+            255,
+            255,
+            255
+        ],
+        "wateringFrequency": 1,
+        "nextWatering": "2024-06-07 18:10:16.083852"
     }
 ]

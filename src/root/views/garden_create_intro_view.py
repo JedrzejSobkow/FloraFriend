@@ -78,14 +78,14 @@ class GardenCreateIntroView(wx.Panel):
         self.heightBox.SetPosition((self.GetSize().width / 2 + slashLabel.GetSize()[0], 50 + labelHeight * 4 + 4 * spacing))
 
         # Next button
-        buttonNext = wx.Button(self, label="next")
+        buttonNext = wx.Button(self, label="Next")
         buttonNext.Bind(wx.EVT_BUTTON, self.get_data_from_boxes)
         buttonNext.SetSize((300, labelHeight * 2))
         buttonNext.SetPosition((self.GetSize().width / 2 - buttonNext.GetSize()[0] / 2, 50 + labelHeight * 6 + 6 * spacing))
         buttonNext.SetFont(font)
 
         # Back button
-        buttonBack = wx.Button(self, label="back")
+        buttonBack = wx.Button(self, label="Back")
         buttonBack.Bind(wx.EVT_BUTTON, on_back)
         buttonBack.SetSize((300, labelHeight*2))
         buttonBack.SetPosition((self.GetSize().width / 2 - buttonBack.GetSize()[0] / 2, 50 + labelHeight * 8 + 8 * spacing))
@@ -119,3 +119,8 @@ class GardenCreateIntroView(wx.Panel):
         self.enterNameBox.SetBackgroundColour(wx.NullColour)
         self.widthBox.SetBackgroundColour(wx.NullColour)
         self.heightBox.SetBackgroundColour(wx.NullColour)
+
+    def clear_inputs(self):
+        self.widthBox.Clear()
+        self.heightBox.Clear()
+        self.enterNameBox.Clear()

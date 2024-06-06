@@ -45,6 +45,7 @@ class GardenCreateIntroController(BaseController):
             garden = GardenModel(garden_name, garden_size)
             self.main_controller.add_garden(garden)
             self.view.Hide()
+            self.view.clear_inputs()
             self.main_controller.load_garden(garden_name)
             self.main_controller.change_controller("garden")
 
@@ -59,6 +60,7 @@ class GardenCreateIntroController(BaseController):
             event: The event object.
         """
         self.view.Hide()
+        self.view.clear_inputs()
         self.main_controller.change_controller("menu")
 
     def validate_garden_name(self, garden_name):

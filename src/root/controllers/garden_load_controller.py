@@ -1,6 +1,8 @@
 from src.root.controllers.controller_base import BaseController
 from src.root.views.garden_load_view import GardenLoadView
 
+
+
 class GardenLoadController(BaseController):
     """
     Controller class for managing the loading of gardens.
@@ -27,7 +29,7 @@ class GardenLoadController(BaseController):
         """
         self.view.Show()
         self.remove_garden_buttons()
-        self.view.add_buttons_for_gardens([garden.name for garden in self.main_controller.allGardens])
+        self.view.add_buttons_for_gardens([garden.name for garden in self.main_controller.allGardens[:8]])
 
     def on_load(self, garden_name, event):
         """
