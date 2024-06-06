@@ -20,9 +20,8 @@ FloraFriend is a garden management application that allows users to create, mana
 ## Technologies
 
 - **Python**: Programming language used to implement the application logic.
-- **Tkinter**: Library for creating the user interface (GUI).
+- **wxPython**: Library for creating the user interface (GUI).
 - **Plyer**: Library for sending system notifications.
-- **win10toast**: Alternative library for sending system notifications on Windows.
 - **JSON**: Format for managing garden data.
 - **Datetime**: Module for managing time and plant watering schedules.
 
